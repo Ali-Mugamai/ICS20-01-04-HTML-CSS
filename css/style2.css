@@ -1,0 +1,38 @@
+
+
+h1 {
+  background-color: rgb(150 0 250);
+  color: hsl(147deg 50% 47%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #ffd700;
+}
+
+ul {
+  color: black;
+}
+
+ul li::before {
+  content: "✅";
+}
+
+table {
+  border: solid thin;
+}
+
+th {
+  height: 2rem;
+  background: magenta;
+  border: 1px solid black;
+  text-align: left;
+}
+
+td {
+  height: 2rem;
+  background: lightblue;
+  border: 1px solid black;
+  text-align: center;
+}
